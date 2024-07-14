@@ -1,13 +1,13 @@
 #include<stdio.h>
 
-int main()      //a rotina principal não precisa ser float apenas as variáveis
+int main()      //a rotina principal não precisa ser float ou inteiro apenas as variáveis
 {
-    float a, b, c;
+    inteiro a, b, c;
     
-    printf("Digite um número decimal: ");
-        scanf("%f", &a);
-    printf("Digite outro número decimal: ");
-        scanf("%f", &b);
+    printf("Digite um número inteiro: ");
+        scanf("%i", &a);
+    printf("Digite outro número inteiro: ");
+        scanf("%i", &b);
 c = a * b;
-    printf("O resultado de %f x %f é igual a %f", a, b, c);
+    printf("O resultado de %i x %i é igual a %i", a, b, c);
 }
